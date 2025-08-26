@@ -33,7 +33,7 @@ while true; do
 
     if [ ${#sessions[@]} -eq 0 ]; then
         dialog --msgbox "No sessions found." 8 40
-        exit 1
+#        clear && exit 0
     fi
 
     OPTIONS=()
